@@ -7,10 +7,13 @@ My collection of tips, snippets and scripts in Python (2.7 and 3.X)
 
 If you have both Python 2.7.X and 3.X installed, you might want to create a shortcut to start a custom cmd.exe (Command Line Prompt) that only has Python 2.7 (or 3.X, depending on your needs) in it's path and that way, you don't risk starting the incorrect python-version while you're working on this!
 
-The example below expects you to have Python 2.7 installed in `c:\python27\` and have git installed in `C:\Program Files\Git\cmd`
+The example below expects having the following tools at the specified directories:
+- Python 2.7: `c:\python27\`  
+- GIT: `C:\Program Files\Git\cmd`  
+- FFmpeg: `C:\Program Files\FFmpeg\bin`  
 
 ```cmd
-cmd /k "set PATH=C:\python27\;C:\python27\Scripts\;C:\Program Files\Git\cmd;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\"
+cmd /k "set PATH=C:\python27\;C:\python27\Scripts\;C:\Program Files\Git\cmd;C:\Program Files\FFmpeg\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\"
 ```
 
 ## virtualenv
