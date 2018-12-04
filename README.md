@@ -46,3 +46,8 @@ And now we can install any libraries we want for our project using pip, like thi
 ```
 pip install git+https://github.com/mapillary/Piexif
 ```
+
+When you're done working in your virtualenv and want to switch to another one, run this:
+```
+deactivate
+```
