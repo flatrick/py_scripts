@@ -16,7 +16,19 @@ The example below expects having the following tools at the specified directorie
 cmd /k "set PATH=C:\python27\;C:\python27\Scripts\;C:\Program Files\Git\cmd;C:\Program Files\FFmpeg\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\"
 ```
 
-## virtualenv
+## Virtual environments
+
+This is a must to know about to ensure that all different Python-projects don't end up installing dependencies that breaks other packages.
+
+### venv
+
+Since **Python 3.6**, Python comes with a lightweight alternative for Virtual Environments called **venv**
+[venv — Creation of virtual environments](https://docs.python.org/3/library/venv.html)
+
+### virtualenv
+
+A more functionrich alternative to the builtin **venv** is **virtualenv**.
+To read more details about it, check out [Virtualenv docs](https://virtualenv.pypa.io/en/stable/)
 
 After starting cmd.exe using our shortcut we created above, we need to install virtualenv so we can create our virtual environments so we don't end up with mismatching/conflicting versions of python-libraries for different projects.
 
