@@ -25,6 +25,10 @@ This is a must to know about to ensure that all different Python-projects don't 
 Since **Python 3.6**, Python comes with a lightweight alternative for Virtual Environments called **venv**  
 [venv — Creation of virtual environments](https://docs.python.org/3/library/venv.html)
 
+```cmd
+python3 -m venv .venv
+``` 
+
 ### virtualenv
 
 A more functionrich alternative to the builtin **venv** is **virtualenv**  
