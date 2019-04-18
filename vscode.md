@@ -1,4 +1,12 @@
-# %appdata%\Code\User\settings.json
+# Extensions
+
+Better Comments
+GitLens
+
+
+# Settings
+
+## %appdata%\Code\User\settings.json
 
 Below are the settings I use in VSCode (I've removed any passwords for some of the extensions)
 
