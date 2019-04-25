@@ -1,6 +1,9 @@
 # py_scripts
 My collection of tips, snippets and scripts in Python (2.7 and 3.X)
 
+# Python IDE/editors
+* [My Visual Studio Code settings](vscode.md)
+
 # Python on Windows
 
 ## Python 2.7 and 3.X installed?
