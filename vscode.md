@@ -1,7 +1,7 @@
 # Extensions
 
-Better Comments
-GitLens
+* Better Comments
+* GitLens
 
 
 # Settings
